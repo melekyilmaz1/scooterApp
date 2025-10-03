@@ -1,0 +1,5 @@
+backend/node_modules/** linguist-vendored
+backend/dist/** linguist-generated
+*.min.js linguist-generated
+*.map linguist-generated
+backend/src/** linguist-language=TypeScript
