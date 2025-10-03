@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		008760E72E5C56D300FE58D9 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 008760E62E5C56D300FE58D9 /* MapboxMaps */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		008665E22E56F08600AEF605 /* assigment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assigment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008760E72E5C56D300FE58D9 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = assigment1;
 			packageProductDependencies = (
+				008760E62E5C56D300FE58D9 /* MapboxMaps */,
 			);
 			productName = assigment1;
 			productReference = 008665E22E56F08600AEF605 /* assigment1.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 008665D92E56F08600AEF605;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				008760E52E5C56D300FE58D9 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 008665E32E56F08600AEF605 /* Products */;
 			projectDirPath = "";
@@ -333,6 +342,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		008760E52E5C56D300FE58D9 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		008760E62E5C56D300FE58D9 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 008760E52E5C56D300FE58D9 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 008665DA2E56F08600AEF605 /* Project object */;
 }
