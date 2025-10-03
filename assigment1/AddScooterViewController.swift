@@ -20,13 +20,13 @@ final class AddScooterViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         title = "Yeni Scooter Ekle"
-        
+
         setupNavigationBar()
         setupLocationManager()
         setupUI()
         setupConstraints()
     }
-    
+       
     // MARK: - Setup
     private func setupNavigationBar() {
         if presentingViewController != nil && navigationController?.viewControllers.first == self {
